@@ -126,9 +126,9 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'bốc bát họ') {
-        msg.reply('bốc bát hộ đê');
+        msg.reply('bốc bát họ đê');
     }
-});
+});        
 
 client.on('message', msg => {
     if (msg.content === 'go pro thôi') {
